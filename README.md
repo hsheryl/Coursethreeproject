@@ -1,6 +1,6 @@
 # Getting and Cleaning Data Course Project
 
-This is the process by which I got and cleaned the data from the given link.
+This is the process by which I got and cleaned the data from the given link resulting in a table that has all of the relevant data with one variable per column and one set of values for a given activity and person per row.  This is the wide format.
 
 First I needed to download, unzip and read in the data that I needed.  I chose to read in the data one file at a time because out of the 28 files I only needed eight of them and this seemed the most straightforward way of creating R objects with them.   
 
