@@ -1,4 +1,4 @@
-##Study Design
+Study Design
 =================
 I downloaded the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 and performed additional manipulation of it.  
@@ -16,10 +16,10 @@ The original documentation for the data set gives this description of the the st
 >block quote "Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals)."   
 
 >Block quote "Use of this dataset in publications must be acknowledged by referencing the following publication: Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012"  
+   
 
-==================
-
-##Description of Variables
+Description of Variables
+=========================
 
 The new variable names I created are listed below.  "activity" is the activity being performed by the subject when the measurement was taken.  "subject" is a numeric identifier for each participant in the study.  From the original variable names the prefix "t" ws expanded to "time", the prefix "f" was expanded to "force", the special characters were removed, "acc" was expanded to "acceleration", and "mag" was expanded to "magnitude".  Except for "activity" and "subject", the other variables are all means of either means or standard deviations that were estimated based on the original measurements that were obtained as described in the quotes above.
 
