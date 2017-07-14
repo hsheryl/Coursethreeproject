@@ -2,7 +2,7 @@
 
 This is the process by which I got and cleaned the data from the given link.
 
-First I needed to download, unzip and read in the data that I needed.  I choose to read in the data one file at a time because out of the 28 files I only needed eight of them and this seemed the most straightforward way of creating R objects with them.   
+First I needed to download, unzip and read in the data that I needed.  I chose to read in the data one file at a time because out of the 28 files I only needed eight of them and this seemed the most straightforward way of creating R objects with them.   
 
 ```
 #unzip all files into the working directory
