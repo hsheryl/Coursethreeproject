@@ -98,7 +98,7 @@ Variable names from the data set once it was tidied:
 "frequencybodyaccelerationmagnitudemeanfreq"        
 "frequencybodybodyaccelerationjerkmagnitudemean"    
 "frequencybodybodyaccelerationjerkmagnitudestd"     
-"frequencybodybodyaccelerationjerkmagnitudemeanfreq"
+"frequencybodybodyaccelerationjerkmagnitudemeanfreq"   
 "frequencybodybodygyromagnitudemean"                
 "frequencybodybodygyromagnitudestd"                 
 "frequencybodybodygyromagnitudemeanfreq"            
