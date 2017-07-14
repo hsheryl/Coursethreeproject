@@ -23,7 +23,7 @@ Description of Variables
 
 The new variable names I created are listed below.  "activity" is the activity being performed by the subject when the measurement was taken.  "subject" is a numeric identifier for each participant in the study.  From the original variable names the prefix "t" ws expanded to "time", the prefix "f" was expanded to "force", the special characters were removed, "acc" was expanded to "acceleration", and "mag" was expanded to "magnitude".  Except for "activity" and "subject", the other variables are all means of either means or standard deviations that were estimated based on the original measurements that were obtained as described in the quotes above.
 
-Variable names from the data set once it was tidied:
+Variable names from the data set once it was tidied:   
 "activity"                                            
 "subject"                                           
 "timebodyaccelerationmeanx"                         
