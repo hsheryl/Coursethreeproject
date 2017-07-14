@@ -69,7 +69,7 @@ meanandstd <- activitydata[, c(1, 2, keep)]
 rm(keep)
 ```
 
-This next block of code completes "3. Uses descriptive activity names to name the activities in the data set."  I chose to use the data give in the activity_labels.txt file as a reference table to change the values for the activities from the original numeric form to the strings as given in that file.   
+This next block of code completes "3. Uses descriptive activity names to name the activities in the data set."  I chose to use the data given in the activity_labels.txt file as a reference table to change the values for the activities from the original numeric form to the strings as given in that file.   
 
 ```
 #use descriptive activity names to name the activities in the data set
